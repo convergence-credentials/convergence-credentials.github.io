@@ -22,7 +22,8 @@
     "serve-static": "http-server out -s -p 3000",
     "integration": "testcafe chrome src/**/*.spec.js",
     "integration:headless": "testcafe chrome:headless src/**/*.spec.js",
-    "integration:watch": "nodemon --exec \"npm run integration\" --watch src"
+    "integration:watch": "nodemon --exec \"npm run integration\" --watch src",
+    "deploy": "gh-pages -d static --branch master"
   },
   "dependencies": {
     "@govtechsg/dnsprove": "^2.0.3",
@@ -82,7 +83,7 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-testcafe": "^0.2.1",
     "esm": "^3.1.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "http-server": "^0.11.1",
     "jest": "^24.7.1",
     "jest-sonar-reporter": "^2.0.0",

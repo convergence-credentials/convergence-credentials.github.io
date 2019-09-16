@@ -36,23 +36,33 @@
       "static/Xiv7tuiJXNroVKpjdPuhJ/pages/privacy.js": 6,
       "static/Xiv7tuiJXNroVKpjdPuhJ/pages/registry.js": 7,
       "static/Xiv7tuiJXNroVKpjdPuhJ/pages/terms.js": 8,
-      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/viewer.js": 9
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/viewer.js": 9,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/_app.js": 11,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/_document.js": 12,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/_error.js": 13,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/collaborate.js": 14,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/faq.js": 15,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/index.js": 16,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/privacy.js": 17,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/registry.js": 18,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/terms.js": 19,
+      "static/LRxkrNrz5djtBFG4M-jRL/pages/viewer.js": 20
     },
     "bySource": {
       "0 node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!src/components/CertificateViewer.js ./CertificateSharing/CertificateSharingForm": 10
     },
     "usedIds": [
-      0,
-      1,
       10,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ]
   }
 }
