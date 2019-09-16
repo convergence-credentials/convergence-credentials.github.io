@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
   <loc>https://dev.opencerts.io/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/registry/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/collaborate/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/privacy/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/terms/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/viewer/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://dev.opencerts.io/faq/</loc>
-  <lastmod>2019-09-16T23:41:13+0:00</lastmod>
+  <lastmod>2019-09-16T23:48:43+0:00</lastmod>
   <priority>0.90</priority>
 </url>
 </urlset>
