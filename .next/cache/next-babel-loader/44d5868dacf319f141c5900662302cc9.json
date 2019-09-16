@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from \"redux\";\nimport application from \"./application\";\nimport certificate from \"./certificate\";\nexport default combineReducers({\n  application: application,\n  certificate: certificate\n});","map":null,"metadata":{},"sourceType":"module"}

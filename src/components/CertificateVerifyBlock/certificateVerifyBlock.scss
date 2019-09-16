@@ -1,0 +1,107 @@
+@import '../../styles/variables.scss';
+
+.verifyBlocksContainer {
+  position: absolute;
+  z-index: 1;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.simple-verify-block {
+  width: 100%;
+  min-width: 300px;
+  border-radius: 5px;
+  color: white;
+  height: 100%;
+  box-shadow: 2px 2px 4px 0 $grey-blue;
+  div {
+    padding: 2px 0;
+    height: 100%;
+    margin: auto 0;
+  }
+  
+}
+@mixin block-color($color) {
+  background-color: $color;
+  border: 1px solid $color;
+
+  &:hover {
+    box-shadow: 2px 2px 6px 0 #a7afb7;
+  }
+
+  &.active {
+    color: $color;
+    background-color: #fff;
+    #circle {
+      fill: $color
+    }
+    #check {
+      fill: #fff;
+    }
+    svg > polyline {
+      stroke: $color;
+    }
+  }
+}
+
+.arrow {
+  height:100%;
+  margin: 6px 15px 0 15px;
+}
+
+.valid {
+  @include block-color($success-color);
+}
+
+.warning {
+  @include block-color($warning-color);
+}
+
+.invalid {
+  @include block-color($invalid-color);
+}
+
+.verification-text {
+  font-size: 1.25rem;
+}
+
+.verified-icon {
+  margin: 0 10px !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .verifyBlocksContainer {
+    position: relative;
+  }
+  .d-flex {
+    display: block!important;
+  }
+  .verification-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 979px) {
+  .verifyBlocksContainer {
+    display: block!important;
+  }
+  .d-flex {
+    display: block!important;
+  }
+  .verification-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .verifyBlocksContainer {
+    position: block!important;
+  }
+  .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+  }
+  .verification-text {
+    font-size: 1.25rem;
+  }
+}

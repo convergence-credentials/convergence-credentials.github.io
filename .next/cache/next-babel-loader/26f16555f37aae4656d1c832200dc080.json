@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { all } from \"redux-saga/effects\";\nimport applicationSaga from \"./application\";\nimport certificateSaga from \"./certificate\";\n\nfunction* rootSaga() {\n  yield all([...applicationSaga, ...certificateSaga]);\n}\n\nexport default rootSaga;","map":null,"metadata":{},"sourceType":"module"}

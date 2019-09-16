@@ -1,0 +1,1 @@
+{"ast":null,"code":"const defaultUrl = \"/static/registry.json\";\nexport default function fetchIssuers(url = defaultUrl) {\n  return window.fetch(url).then(res => res.json()).then(json => json.issuers).catch(console.error); // eslint-disable-line\n}","map":null,"metadata":{},"sourceType":"module"}

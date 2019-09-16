@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { get } from \"lodash\";\nexport const getDocumentStore = issuer => issuer.certificateStore || issuer.documentStore;\nexport const getDocumentIssuerStores = document => {\n  const issuers = get(document, \"issuers\", []);\n  return issuers.map(getDocumentStore).join(\",\");\n};","map":null,"metadata":{},"sourceType":"module"}

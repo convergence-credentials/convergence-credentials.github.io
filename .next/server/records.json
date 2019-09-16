@@ -1,0 +1,58 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/_document.js": 1,
+      "multi private-next-pages/collaborate.js": 2,
+      "multi private-next-pages/faq.js": 3,
+      "multi private-next-pages/index.js": 4,
+      "multi private-next-pages/privacy.js": 5,
+      "multi private-next-pages/registry.js": 6,
+      "multi private-next-pages/terms.js": 7,
+      "multi private-next-pages/viewer.js": 8,
+      "multi next/dist/pages/_error": 9
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/_app.js": 0,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/_document.js": 1,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/_error.js": 2,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/collaborate.js": 3,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/faq.js": 4,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/index.js": 5,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/privacy.js": 6,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/registry.js": 7,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/terms.js": 8,
+      "static/Xiv7tuiJXNroVKpjdPuhJ/pages/viewer.js": 9
+    },
+    "bySource": {
+      "0 node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!src/components/CertificateViewer.js ./CertificateSharing/CertificateSharingForm": 10
+    },
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
