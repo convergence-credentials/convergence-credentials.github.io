@@ -1,81 +1,40 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_397dc449097af0b4e992.js",
+    "static/development/dll/dll_397dc449097af0b4e992.js.map"
+  ],
   "pages": {
     "/": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
-    ],
-    "/collaborate": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
-    ],
-    "/faq": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/index": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
-    ],
-    "/privacy": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/registry": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
-    ],
-    "/terms": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/viewer": [
-      "static/runtime/webpack-a91e5e939298e125a144.js",
-      "static/css/commons.823b9d6e.chunk.css",
-      "static/chunks/commons.c5fdd2ff5cf96b0d49c5.js",
-      "static/css/styles.1fdf749b.chunk.css",
-      "static/chunks/styles.e1ec0229a8626e689139.js",
-      "static/runtime/main-84a2207fab4bac15d82b.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }

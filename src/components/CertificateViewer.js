@@ -92,6 +92,9 @@ const CertificateViewer = props => {
 
   const certificate = getData(document);
 
+  // console.log(certificate)
+  console.log(certificate.$template.url)
+
   const renderedHeaderBlock = renderHeaderBlock(props);
 
   const validCertificateContent = (

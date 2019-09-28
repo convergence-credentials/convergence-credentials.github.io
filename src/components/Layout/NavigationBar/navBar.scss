@@ -14,7 +14,8 @@
     display: block; 
     justify-content: flex-start;
     margin: 0 auto;
-    background-color: $brand-dark;
+    background-color: #fff;
+    // background-color: $brand-dark;
     padding: 1rem 2rem;
 
     @media print {
@@ -33,13 +34,13 @@
         font-weight: 500;
 
         &:hover {
-            color: #fff;
+            color: #000;
             text-decoration: none;
         }
     }
     &.active {
         a {
-            color: #fff;
+            color: #000;
             pointer-events: none;
         }
     }

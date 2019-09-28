@@ -1,1 +1,0 @@
-{"ast":null,"code":"import _Promise from \"@babel/runtime-corejs2/core-js/promise\";\n// Wrap web3.eth.getAccounts in a Promise\nexport const getAccounts = web3 => new _Promise((resolve, reject) => {\n  web3.eth.getAccounts((error, accounts) => error ? reject(error) : resolve(accounts));\n});\nexport default getAccounts;","map":null,"metadata":{},"sourceType":"module"}

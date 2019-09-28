@@ -3,13 +3,13 @@ import css from "./footer.scss";
 const NavigationBar = () => (
   <div className="bg-brand-dark" id={css["footer-print"]}>
     <div className={css.footer}>
-      <div>
+      {/* <div>
         <a href="/collaborate">Collaborate</a>
       </div>
       <div>
         <a href="/faq">FAQ</a>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <a href="/registry">Registry</a>
       </div>
       <div>
@@ -20,7 +20,7 @@ const NavigationBar = () => (
       </div>
       <div>
         <a href="https://github.com/OpenCerts">Github</a>
-      </div>
+      </div> */}
     </div>
   </div>
 );

@@ -1,1 +1,0 @@
-{"ast":null,"code":"export * from \"./getWeb3\";\nexport * from \"./getAccounts\";","map":null,"metadata":{},"sourceType":"module"}

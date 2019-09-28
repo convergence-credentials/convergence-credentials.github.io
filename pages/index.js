@@ -11,7 +11,7 @@ const VerifierPage = () => (
     <NextSeo config={DEFAULT_SEO} />
     <NavigationBar active="home" />
     <MainPageContainer />
-    <FooterBar />
+    {/* <FooterBar /> */}
   </>
 );
 

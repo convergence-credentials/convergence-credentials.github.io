@@ -57,7 +57,7 @@ const DraggableDemoCertificate = () => (
           Drag me over here to see a demo certificate and other features
         </span>
         <img
-          src="/static/images/opencertslogo.svg"
+          // src="/static/images/convergence.png"
           width="100%"
           draggable="false"
         />
@@ -114,7 +114,7 @@ class DropZoneSection extends Component {
             <div className={css.description}>
               <h1>An easy way to check and verify your certificates</h1>
               <p>
-                Whether you&#39;re a student or an employer, OpenCerts lets you
+                Whether you&#39;re a student or an employer, Convergence lets you
                 verify the certificates you have of anyone from any institution.
                 All in one place.
               </p>

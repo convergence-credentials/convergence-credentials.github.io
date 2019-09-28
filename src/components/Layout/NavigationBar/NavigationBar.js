@@ -33,9 +33,8 @@ const NavigationBar = ({ active }) => (
     className={`${css.navbar} ${"navbar-expand-md navbar-dark bg-brand-dark"}`}
   >
     <div className={css.innerbar}>
-      <a className="navbar-brand" href="/">
-        <img src="/static/images/convergence-logo.png" alt="convergence" />
-        {/* <img src="/static/images/opencertslogo.svg" alt="OpenCerts" /> */}
+      <a className="navbar-brand" href="https://convergence.tech" target="_blank">
+        <img src="/static/images/convergence.png" alt="convergence" />
       </a>
       <button
         className={`${css["navbar-toggler"]} d-none`}
