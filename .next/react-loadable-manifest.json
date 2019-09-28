@@ -1,204 +1,208 @@
 {
   "./CertificateSharing/CertificateSharingForm": [
     {
-      "id": 13,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/CertificateDropZone/Views/viewerStyles.scss",
-      "name": "./src/components/CertificateDropZone/Views/viewerStyles.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/CertificateSharing/sharing.scss",
+      "id": "04if",
       "name": "./src/components/CertificateSharing/sharing.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./src/components/CertificateVerifyBlock/certificateVerifyBlock.scss",
-      "name": "./src/components/CertificateVerifyBlock/certificateVerifyBlock.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "id": "3BKK",
+      "name": "./src/components/TermsOfUse/termsOfUse.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./src/components/CertificateVerifyBlock/detailedCertificateBlock.scss",
+      "id": "61xp",
       "name": "./src/components/CertificateVerifyBlock/detailedCertificateBlock.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/HomePageContent/aboutSection.scss",
-      "name": "./src/components/HomePageContent/aboutSection.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/HomePageContent/dropZoneSection.scss",
-      "name": "./src/components/HomePageContent/dropZoneSection.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/HomePageContent/partnersPage.scss",
-      "name": "./src/components/HomePageContent/partnersPage.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/Layout/NavigationBar/navBar.scss",
-      "name": "./src/components/Layout/NavigationBar/navBar.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 10,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
       "id": 8,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": 11,
+      "id": 22,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
       "id": 9,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": 14,
+      "id": 21,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": 19,
+      "id": 10,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 15,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 18,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 16,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 17,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/Layout/footer.scss",
-      "name": "./src/components/Layout/footer.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/Modal/modal.scss",
-      "name": "./src/components/Modal/modal.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/UI/Drawer/drawer.scss",
-      "name": "./src/components/UI/Drawer/drawer.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/certificateViewer.scss",
-      "name": "./src/components/certificateViewer.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./src/components/error.scss",
-      "name": "./src/components/error.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
       "id": 20,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./node_modules/react-async-script/lib/esm/async-script-loader.js",
-      "name": "./node_modules/react-async-script/lib/esm/async-script-loader.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./node_modules/react-google-recaptcha/lib/esm/index.js",
-      "name": "./node_modules/react-google-recaptcha/lib/esm/index.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": 19,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js",
-      "name": "./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./node_modules/react-google-recaptcha/lib/esm/recaptcha.js",
-      "name": "./node_modules/react-google-recaptcha/lib/esm/recaptcha.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": 18,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
     },
     {
-      "id": "./src/components/CertificateSharing/CertificateSharingForm.js",
+      "id": 13,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 17,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 15,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "668o",
+      "name": "./src/components/registry.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 16,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "89tK",
+      "name": "./src/components/CertificateDropZone/Views/viewerStyles.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "Gwhu",
+      "name": "./src/components/FAQ/faq.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "Iy9+",
+      "name": "./src/components/Modal/modal.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "QVNw",
+      "name": "./src/components/error.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "TUGC",
+      "name": "./src/components/HomePageContent/aboutSection.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "VWj6",
+      "name": "./src/components/HomePageContent/partnersPage.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "VdpB",
+      "name": "./src/components/certificateViewer.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "WUQG",
+      "name": "./src/components/HomePageContent/dropZoneSection.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "X/AX",
+      "name": "./src/components/UI/Card/card.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "e528",
+      "name": "./src/components/Privacy/privacy.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "nGbF",
+      "name": "./src/components/CertificateVerifyBlock/certificateVerifyBlock.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "wgDX",
+      "name": "./src/components/UI/Drawer/drawer.scss",
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": 23,
+      "name": null,
+      "file": "static/chunks/styles.e1ec0229a8626e689139.js",
+      "publicPath": "static/chunks/styles.e1ec0229a8626e689139.js"
+    },
+    {
+      "id": "n2ZS",
       "name": "./src/components/CertificateSharing/CertificateSharingForm.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
-  ],
-  "./dev/noop": [
-    {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "name": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
+      "file": "static/chunks/13.90a2c8a810827f1b1d23.js",
+      "publicPath": "static/chunks/13.90a2c8a810827f1b1d23.js"
     }
   ]
 }

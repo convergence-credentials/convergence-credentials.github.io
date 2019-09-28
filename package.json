@@ -17,7 +17,7 @@
     "postexport": "node post-export.js",
     "start:watch": "nodemon --exec \"npm run start\"",
     "cname": "echo 'convergence-credentials.github.io' > out/CNAME",
-    "deploy": "gh-pages -d out --branch master",
+    "deploy": "npm run build:static && cd out && now",
     "analyze": "BUNDLE_ANALYZE=browser npm run start",
     "dev-cli": "node -r esm ./scripts/cli.js",
     "serve-static": "http-server out -s -p 3000",
