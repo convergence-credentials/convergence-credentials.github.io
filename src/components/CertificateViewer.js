@@ -11,8 +11,6 @@ import MultiTabs from "./MultiTabs";
 import { selectTemplateTab as selectTemplateTabAction } from "../reducers/certificate";
 import { LEGACY_OPENCERTS_RENDERER } from "../config";
 
-console.log(styles)
-
 const CertificateSharingForm = dynamic(
   import("./CertificateSharing/CertificateSharingForm")
 );
@@ -109,9 +107,6 @@ const CertificateViewer = props => {
   const { document, selectTemplateTab } = props;
 
   const certificate = getData(document);
-
-  // console.log(certificate)
-  console.log(certificate.$template.url)
 
   const renderedHeaderBlock = renderHeaderBlock(props);
 

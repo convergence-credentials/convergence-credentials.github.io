@@ -1,16 +1,21 @@
 import React from "react";
-import NextSeo from "next-seo";
 import { connect } from "react-redux";
-import NavigationBar from "../../../src/components/Layout/NavigationBar";
-import FooterBar from "../../../src/components/Layout/FooterBar";
-import PublicViewerPageContainer from "../../../src/components/PublicViewerPageContainer";
+import PublicViewer from "../../../src/components/HomePageContent/PublicViewer";
+import fetch from 'isomorphic-unfetch'
+const API_URL = 'http://localhost:3002/public/cert'
 
-const VerifierPage = () => (
+const PublicCertViewer = props => (
   <>
-    <NavigationBar />
-    <PublicViewerPageContainer />
-    <FooterBar />
+    <PublicViewer cert={props.cert}/>
   </>
 );
 
-export default connect()(VerifierPage);
+PublicCertViewer.getInitialProps = async ({ req, res }) => {
+  const id = window.location.href.split('/public/cert/')[1]
+  const certString = await fetch(`${API_URL}/${id}`)
+  const cert = JSON.parse((await certString.json()).cert)
+  return { cert }
+}
+
+
+export default connect()(PublicCertViewer);
