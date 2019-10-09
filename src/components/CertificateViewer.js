@@ -11,6 +11,8 @@ import MultiTabs from "./MultiTabs";
 import { selectTemplateTab as selectTemplateTabAction } from "../reducers/certificate";
 import { LEGACY_OPENCERTS_RENDERER } from "../config";
 
+console.log(styles)
+
 const CertificateSharingForm = dynamic(
   import("./CertificateSharing/CertificateSharingForm")
 );
@@ -37,6 +39,14 @@ const LoadingIframe = () => (
   </div>
 );
 
+const linkedinAuth = () => {
+  const client_id = '86qkwozh6kkok8'
+  const redirect = ''
+  
+  fetch(`https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=${client_id}&redirect_uri=https%3A%2F%2Fdev.example.com%2Fauth%2Flinkedin%2Fcallback&state=fooobar&scope=r_liteprofile%20r_emailaddress%20w_member_social`)
+  .then((res, err) => console.log(res, err))
+}
+
 const renderHeaderBlock = props => {
   const renderedVerifyBlock = renderVerifyBlock(props);
   return (
@@ -45,20 +55,28 @@ const renderHeaderBlock = props => {
         <div className="col-sm-7 col-md-8 col-xs-12">{renderedVerifyBlock}</div>
         <div className={`row col-sm-5 col-md-4 col-xs-12 ${styles["pd-0"]}`}>
           <div className="ml-auto">
-            <div
-              id="btn-print"
-              className={styles["print-btn"]}
-              onClick={() => window.print()}
-            >
-              <i className="fas fa-print" style={{ fontSize: "1.5rem" }} />
+
+            <div className="ml-2" onClick={() => linkedinAuth()}>
+              <button
+                id="btn-linkedin"
+                className={styles["send-btn"]}
+                title="Add to LinkedIn"
+              >
+                <i 
+                  class="fab fa-linkedin-in" 
+                  style={{ fontSize: "1.5rem" }}
+                />
+              </button>
             </div>
           </div>
           <div />
+          
           <div className="ml-2" onClick={() => props.handleSharingToggle()}>
             <div id="btn-email" className={styles["send-btn"]}>
               <i className="fas fa-envelope" style={{ fontSize: "1.5rem" }} />
             </div>
           </div>
+
           <div className="ml-2">
             <a
               download={`${props.certificate.id}.opencert`}
