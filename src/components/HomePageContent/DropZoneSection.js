@@ -86,7 +86,23 @@ const MobileDemoCertificate = () => (
 );
 
 class DropZoneSection extends Component {
-  componentDidMount() {
+  async componentDidMount() {
+
+    // const API_URL = 'https://localhost:3002/public/cert'
+    const API_URL = 'https://certs.api.convergence.tech:3002/public/cert' // PROD - move into config...
+    const url = window.location.href
+    const id = url.split('?')[1]
+    
+    try {
+      const certString = id ? await fetch(`${API_URL}/${id}`) : null
+      const cert = certString ? JSON.parse((await certString.json()).cert) : null
+      if (cert) {
+        this.props.updateCertificate(cert);
+      }
+    } catch (err) {
+      // ...
+    }
+
     document.getElementById("demoDrop").addEventListener("drop", e => {
       if (e.dataTransfer.getData(DEMO_CONTENT_KEY)) {
         this.props.updateCertificate(DEMO_CERT);

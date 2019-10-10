@@ -75,7 +75,7 @@ const renderHeaderBlock = props => {
             </div>
           </div>
 
-          <div className="ml-2">
+          {/* <div className="ml-2">
             <a
               download={`${props.certificate.id}.opencert`}
               target="_black"
@@ -96,7 +96,7 @@ const renderHeaderBlock = props => {
                 />
               </button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

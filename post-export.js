@@ -5,4 +5,4 @@ const URL =
   process.env.NET === "mainnet"
     ? "https://opencerts.io"
     : "https://dev.opencerts.io";
-generateSitemap(URL, "./out/static/");
+generateSitemap(URL, "./out/");
