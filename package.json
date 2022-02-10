@@ -43,7 +43,7 @@
     "next-ga": "^2.3.4",
     "next-redux-wrapper": "^2.0.0",
     "next-seo": "^1.11.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "number-to-words": "^1.2.4",
     "penpal": "^4.0.0",
     "prop-types": "^15.6.1",
